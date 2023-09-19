@@ -95,7 +95,13 @@ const Contact = () => {
                 <h2 className="py-2">Raj Kumar R</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4 text-justify">
-                Dive into a seamless experience where testing, debugging, sharing, and documenting APIs converge. Collaborate effortlessly, no matter where your stakeholders are.
+                  I am excited to contribute my skills to innovative projects
+                  and collaborate with teams that share my passion for
+                  technology and design. Open to new opportunities, I am eager
+                  to bring my expertise to projects that push boundaries and
+                  elevate user interactions. Feel free to reach out to me for
+                  collaboration or any inquiries, let &apos; s create something
+                  amazing together
                 </p>
               </div>
               {/* <div>

@@ -46,7 +46,7 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-sky-700">
             About
           </p>
-          <h2 className="py-4">What's problem today's with API</h2>
+          <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-justify text-gray-300">
             {AboutDetails.intro}
           </p>
@@ -62,7 +62,7 @@ const About = () => {
           transition={{ duration: 0.5 }}
           className={`h-[70%] w-[65%] m-auto rounded-xl flex flex-col gap-2 items-center justify-center  hover:scale-105 ease-in duration-300`}
         >
-          {/* <Image src={Profile} className="rounded-xl" alt="/" />
+          <Image src={Profile} className="rounded-xl" alt="/" />
           <motion.div
             variants={variantTop}
             initial="hidden"
@@ -78,7 +78,7 @@ const About = () => {
               <AiOutlineDownload />
               Resume
             </a>
-          </motion.div> */}
+          </motion.div>
         </motion.div>
       </div>
     </div>

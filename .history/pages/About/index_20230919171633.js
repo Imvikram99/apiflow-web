@@ -15,7 +15,18 @@ const About = () => {
       - Unannounced changes? The worst.`,
     ],
     brief: [
-      `Our solution? A sleek SDK that integrates effortlessly with your backend, sampling network traffic. The result? A transformative tool that revolutionizes your API workflow.`,
+      `I possess a strong
+    foundation in several key areas, including BPM tool-Appian, Java,
+    JavaScript, React.js, Tailwind CSS, and MySQL. Additionally, I have
+    a basic understanding of Next.js, MongoDB, Kubernetes (K8s), and
+    networking, which further enhances my skillset. I take pride in my
+    ability to convert complex business requirements into innovative
+    software solutions. My problem-solving skills, logical approach, and
+    organizational abilities enable me to tackle challenges effectively.
+    Furthermore, I am a dedicated team player with excellent
+    interpersonal and communication skills, making me adept at
+    collaborating with colleagues and clients alike.
+    I am open to new challenges and opportunities, and I believe that my dedication, technical expertise, and passion for innovation make me an ideal fit for the IT industry`,
     ],
   };
   const variantleft = {
@@ -46,7 +57,7 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-sky-700">
             About
           </p>
-          <h2 className="py-4">What's problem today's with API</h2>
+          <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-justify text-gray-300">
             {AboutDetails.intro}
           </p>
@@ -62,7 +73,7 @@ const About = () => {
           transition={{ duration: 0.5 }}
           className={`h-[70%] w-[65%] m-auto rounded-xl flex flex-col gap-2 items-center justify-center  hover:scale-105 ease-in duration-300`}
         >
-          {/* <Image src={Profile} className="rounded-xl" alt="/" />
+          <Image src={Profile} className="rounded-xl" alt="/" />
           <motion.div
             variants={variantTop}
             initial="hidden"
@@ -78,7 +89,7 @@ const About = () => {
               <AiOutlineDownload />
               Resume
             </a>
-          </motion.div> */}
+          </motion.div>
         </motion.div>
       </div>
     </div>

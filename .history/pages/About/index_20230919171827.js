@@ -46,7 +46,7 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-sky-700">
             About
           </p>
-          <h2 className="py-4">What's problem today's with API</h2>
+          <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-justify text-gray-300">
             {AboutDetails.intro}
           </p>

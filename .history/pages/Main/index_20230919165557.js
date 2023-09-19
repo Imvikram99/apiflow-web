@@ -636,7 +636,7 @@ const Main = () => {
               transition={{ duration: 1 }}
               className="uppercase text-sm tracking-widest text-gray-200"
             >
-              PostmanGpt
+              LET U KNOW ABOUT ME
             </motion.p>
             <motion.h1
               variants={variantLeft}
@@ -648,7 +648,7 @@ const Main = () => {
               Hi, I&#39;m{" "}
               <span className="text-transparent text-7xl bg-clip-text bg-gradient-to-r from-[rgb(176,108,234)] to-[rgb(255,116,95)]">
                 {" "}
-                Api Pulse
+                Raj Kumar
               </span>
             </motion.h1>
             <motion.h1
@@ -658,7 +658,7 @@ const Main = () => {
               transition={{ duration: 1 }}
               className="py-2 text-[rgb(240,242,245)]"
             >
-              A postman GPT
+              A Frontend Developer
             </motion.h1>
             <motion.p
               variants={variant}
@@ -667,7 +667,8 @@ const Main = () => {
               transition={{ duration: 1 }}
               className="py-4 text-gray-300 sm:max-w-[70%] m-auto"
             >
-              Dive into a seamless experience where testing, debugging, sharing, and documenting APIs converge. Collaborate effortlessly, no matter where your stakeholders are.
+              I &apos; focused on learning tech stacks related to frontend web
+              application.
             </motion.p>
             <motion.div
               variants={variant}

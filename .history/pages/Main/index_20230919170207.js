@@ -667,7 +667,8 @@ const Main = () => {
               transition={{ duration: 1 }}
               className="py-4 text-gray-300 sm:max-w-[70%] m-auto"
             >
-              Dive into a seamless experience where testing, debugging, sharing, and documenting APIs converge. Collaborate effortlessly, no matter where your stakeholders are.
+              I &apos; focused on learning tech stacks related to frontend web
+              application.
             </motion.p>
             <motion.div
               variants={variant}
