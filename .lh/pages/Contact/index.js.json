@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1695123816332,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1695125554521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,10 +91,10 @@\n                   alt=\"/\"\n                 />\n               </div>\n               <div>\n-                <h2 className=\"py-2\">Raj Kumar R</h2>\n-                <p>Front-End Developer</p>\n+                <h2 className=\"py-2\">Apipulse</h2>\n+                <p>PostmanGpt</p>\n                 <p className=\"py-4 text-justify\">\n                 Dive into a seamless experience where testing, debugging, sharing, and documenting APIs converge. Collaborate effortlessly, no matter where your stakeholders are.\n                 </p>\n               </div>\n"
                 }
             ],
             "date": 1695123816332,
