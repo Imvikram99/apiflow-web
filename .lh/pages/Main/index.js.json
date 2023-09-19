@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1695122983891,
@@ -24,6 +24,14 @@
                 {
                     "date": 1695123877044,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -666,10 +666,9 @@\n               whileInView={\"show\"}\n               transition={{ duration: 1 }}\n               className=\"py-4 text-gray-300 sm:max-w-[70%] m-auto\"\n             >\n-              I &apos; focused on learning tech stacks related to frontend web\n-              application.\n+              Dive into a seamless experience where testing, debugging, sharing, and documenting APIs converge. Collaborate effortlessly, no matter where your stakeholders are.\n             </motion.p>\n             <motion.div\n               variants={variant}\n               initial=\"hidden\"\n"
+                },
+                {
+                    "date": 1695125416453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n import { useCallback } from \"react\";\n import Particles from \"react-tsparticles\";\n import { loadSlim } from \"tsparticles-slim\";\n import { motion } from \"framer-motion\";\n-import Resume from \"../../public/RajKumar_resume.pdf\";\n import Link from \"next/link\";\n import { AiOutlineMail } from \"react-icons/ai\";\n import { BsFillPersonLinesFill } from \"react-icons/bs\";\n import { FaLinkedinIn, FaGithub } from \"react-icons/fa\";\n"
+                },
+                {
+                    "date": 1695125451676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -697,13 +697,8 @@\n                 <div className=\"rounded-full  bg-sky-800  text-white shadow-sm shadow-gray-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300\">\n                   <AiOutlineMail />\n                 </div>\n               </Link>\n-              <a href={Resume} target=\"_blank\">\n-                <div className=\"rounded-full  bg-sky-800  text-white shadow-sm shadow-gray-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300\">\n-                  <BsFillPersonLinesFill />\n-                </div>\n-              </a>\n             </motion.div>\n           </div>\n         </div>\n       </div>\n"
                 }
             ],
             "date": 1695122983891,

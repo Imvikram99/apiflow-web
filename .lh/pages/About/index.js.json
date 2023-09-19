@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1695123993582,
@@ -20,6 +20,10 @@
                 {
                     "date": 1695124189948,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n         >\n           <p className=\"uppercase text-xl tracking-widest text-sky-700\">\n             About\n           </p>\n-          <h2 className=\"py-4\">Who I Am</h2>\n+          <h2 className=\"py-4\">What's problem today's with API</h2>\n           <p className=\"py-2 text-justify text-gray-300\">\n             {AboutDetails.intro}\n           </p>\n           <p className=\"py-2 text-justify text-gray-300\">\n"
+                },
+                {
+                    "date": 1695125386714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,7 @@\n \"use client\";\n import React from \"react\";\n import { motion } from \"framer-motion\";\n-import Image from \"next/image\";\n-import Profile from \"@/public/assets/profile_pic.png\";\n-import { AiOutlineDownload } from \"react-icons/ai\";\n-import Resumee from \"../../public/RajKumar_resume.pdf\";\n const About = () => {\n   const AboutDetails = {\n     intro: [\n       `But, let's face it, the tools available today are far from perfect:\n"
                 }
             ],
             "date": 1695123993582,
